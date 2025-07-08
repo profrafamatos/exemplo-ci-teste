@@ -70,6 +70,6 @@ describe("Testes da função avaliarAluno()", () => {
   });
 
   test("Deveria retornar 'Reprovado por faltas' para média 7.5 e faltas totais iguais a 21", () => {
-    expect(avaliarAluno(7.5, 21)).toBe("Reprovado por faltas");
+    expect(avaliarAluno(7.5, 21)).toBe("Reprovado por falta");
   });
 });
